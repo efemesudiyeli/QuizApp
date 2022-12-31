@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;400&display=swap');
+
+body {
+    background-color: #82AAE3 !important;
+}
+
+
+
+* {
+    font-weight: bold;
+    font-family: 'Barlow Condensed', sans-serif;
+    list-style-type: none;
+}
+
+.container {
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card {
+    background-color: #BFEAF5 !important;
+}
+
+ul,
+li {
+    color: #3568af;
+    padding: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+span {
+    color: #3568af;
+}
+
+.cevapBtn {
+    border: 0 !important;
+    outline: 0 !important;
+    background-color: #91D8E4 !important;
+}
+
+.gecBtn {
+    background-color: #82AAE3 !important;
+    color: #ffffff !important;
+}
+
+.bg-danger,
+.bg-success {
+    color: white !important;
+}
+
+.progress,
+.progress-bar {
+
+    border-top-right-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    background-color: #91d8e4 !important;
+}
